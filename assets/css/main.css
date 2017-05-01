@@ -3131,6 +3131,12 @@
 				width: 2.25em;
 			}
 
+		@font-face{
+	    font-family: 'Goldana';
+	    src: url('goldana-base.woff') format('woff'),
+					 url('goldana-base.ttf') format('truetype');
+		}
+
 		#banner h2 {
 			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
 			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
@@ -3150,7 +3156,7 @@
 			filter: blur(0);
 			opacity: 1;
 			border-bottom: solid 2px rgba(000, 000, 000, 0.125);
-			font-size: 2.25em;
+			font-size: 3.50em;
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
 		}
